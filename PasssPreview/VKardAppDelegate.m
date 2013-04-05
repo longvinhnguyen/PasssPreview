@@ -17,9 +17,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        self.viewController = [[VKardViewController alloc] initWithNibName:@"VKardViewController_iPhone" bundle:nil];
+        self.viewController = [[VKardViewController alloc] initWithStyle:UITableViewStylePlain];
     } else {
-        self.viewController = [[VKardViewController alloc] initWithNibName:@"VKardViewController_iPad" bundle:nil];
+        self.viewController = [[VKardViewController alloc] initWithStyle:UITableViewStyleGrouped];
     }
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];

@@ -9,9 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <PassKit/PassKit.h>
 
-@interface VKardViewController : UITableViewController <UITableViewDataSource, UITableViewDelegate, PKAddPassesViewControllerDelegate>
+@interface VKardViewController : UITableViewController<PKAddPassesViewControllerDelegate>
 {
-    
+    NSMutableArray *passes;
 }
+
+- (void)openPassWithName: (NSString *)pathName;
 
 @end

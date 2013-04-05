@@ -16,9 +16,12 @@
 		F63FF882170BC7BB005DC299 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F63FF881170BC7BB005DC299 /* Default.png */; };
 		F63FF884170BC7BB005DC299 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F63FF883170BC7BB005DC299 /* Default@2x.png */; };
 		F63FF886170BC7BB005DC299 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F63FF885170BC7BB005DC299 /* Default-568h@2x.png */; };
-		F63FF889170BC7BB005DC299 /* VKardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FF888170BC7BB005DC299 /* VKardViewController.m */; };
-		F63FF88C170BC7BB005DC299 /* VKardViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F63FF88A170BC7BB005DC299 /* VKardViewController_iPhone.xib */; };
-		F63FF88F170BC7BB005DC299 /* VKardViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F63FF88D170BC7BB005DC299 /* VKardViewController_iPad.xib */; };
+		F63FF896170BC8D7005DC299 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63FF895170BC8D7005DC299 /* PassKit.framework */; };
+		F63FF899170BCC7E005DC299 /* VKardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FF898170BCC7E005DC299 /* VKardViewController.m */; };
+		F63FF89C170BCEBF005DC299 /* bayroast.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = F63FF89B170BCEBF005DC299 /* bayroast.pkpass */; };
+		F63FF8A2170BCFAC005DC299 /* bestBuy.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = F63FF89F170BCFAC005DC299 /* bestBuy.pkpass */; };
+		F63FF8A3170BCFAC005DC299 /* costaCoffee.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = F63FF8A0170BCFAC005DC299 /* costaCoffee.pkpass */; };
+		F63FF8A4170BCFAC005DC299 /* pawnPlanet.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = F63FF8A1170BCFAC005DC299 /* pawnPlanet.pkpass */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,10 +38,13 @@
 		F63FF881170BC7BB005DC299 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		F63FF883170BC7BB005DC299 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		F63FF885170BC7BB005DC299 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		F63FF887170BC7BB005DC299 /* VKardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKardViewController.h; sourceTree = "<group>"; };
-		F63FF888170BC7BB005DC299 /* VKardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKardViewController.m; sourceTree = "<group>"; };
-		F63FF88B170BC7BB005DC299 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VKardViewController_iPhone.xib; sourceTree = "<group>"; };
-		F63FF88E170BC7BB005DC299 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VKardViewController_iPad.xib; sourceTree = "<group>"; };
+		F63FF895170BC8D7005DC299 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		F63FF897170BCC7D005DC299 /* VKardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VKardViewController.h; path = ../VKardViewController.h; sourceTree = "<group>"; };
+		F63FF898170BCC7E005DC299 /* VKardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VKardViewController.m; path = ../VKardViewController.m; sourceTree = "<group>"; };
+		F63FF89B170BCEBF005DC299 /* bayroast.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = bayroast.pkpass; sourceTree = "<group>"; };
+		F63FF89F170BCFAC005DC299 /* bestBuy.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = bestBuy.pkpass; sourceTree = "<group>"; };
+		F63FF8A0170BCFAC005DC299 /* costaCoffee.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = costaCoffee.pkpass; sourceTree = "<group>"; };
+		F63FF8A1170BCFAC005DC299 /* pawnPlanet.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = pawnPlanet.pkpass; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F63FF896170BC8D7005DC299 /* PassKit.framework in Frameworks */,
 				F63FF870170BC7BB005DC299 /* UIKit.framework in Frameworks */,
 				F63FF872170BC7BB005DC299 /* Foundation.framework in Frameworks */,
 				F63FF874170BC7BB005DC299 /* CoreGraphics.framework in Frameworks */,
@@ -75,6 +82,7 @@
 		F63FF86E170BC7BB005DC299 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F63FF895170BC8D7005DC299 /* PassKit.framework */,
 				F63FF86F170BC7BB005DC299 /* UIKit.framework */,
 				F63FF871170BC7BB005DC299 /* Foundation.framework */,
 				F63FF873170BC7BB005DC299 /* CoreGraphics.framework */,
@@ -85,12 +93,11 @@
 		F63FF875170BC7BB005DC299 /* PasssPreview */ = {
 			isa = PBXGroup;
 			children = (
+				F63FF89E170BCECF005DC299 /* passes */,
+				F63FF898170BCC7E005DC299 /* VKardViewController.m */,
+				F63FF897170BCC7D005DC299 /* VKardViewController.h */,
 				F63FF87E170BC7BB005DC299 /* VKardAppDelegate.h */,
 				F63FF87F170BC7BB005DC299 /* VKardAppDelegate.m */,
-				F63FF887170BC7BB005DC299 /* VKardViewController.h */,
-				F63FF888170BC7BB005DC299 /* VKardViewController.m */,
-				F63FF88A170BC7BB005DC299 /* VKardViewController_iPhone.xib */,
-				F63FF88D170BC7BB005DC299 /* VKardViewController_iPad.xib */,
 				F63FF876170BC7BB005DC299 /* Supporting Files */,
 			);
 			path = PasssPreview;
@@ -108,6 +115,17 @@
 				F63FF885170BC7BB005DC299 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F63FF89E170BCECF005DC299 /* passes */ = {
+			isa = PBXGroup;
+			children = (
+				F63FF89F170BCFAC005DC299 /* bestBuy.pkpass */,
+				F63FF8A0170BCFAC005DC299 /* costaCoffee.pkpass */,
+				F63FF8A1170BCFAC005DC299 /* pawnPlanet.pkpass */,
+				F63FF89B170BCEBF005DC299 /* bayroast.pkpass */,
+			);
+			name = passes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,8 +184,10 @@
 				F63FF882170BC7BB005DC299 /* Default.png in Resources */,
 				F63FF884170BC7BB005DC299 /* Default@2x.png in Resources */,
 				F63FF886170BC7BB005DC299 /* Default-568h@2x.png in Resources */,
-				F63FF88C170BC7BB005DC299 /* VKardViewController_iPhone.xib in Resources */,
-				F63FF88F170BC7BB005DC299 /* VKardViewController_iPad.xib in Resources */,
+				F63FF89C170BCEBF005DC299 /* bayroast.pkpass in Resources */,
+				F63FF8A2170BCFAC005DC299 /* bestBuy.pkpass in Resources */,
+				F63FF8A3170BCFAC005DC299 /* costaCoffee.pkpass in Resources */,
+				F63FF8A4170BCFAC005DC299 /* pawnPlanet.pkpass in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,7 +200,7 @@
 			files = (
 				F63FF87C170BC7BB005DC299 /* main.m in Sources */,
 				F63FF880170BC7BB005DC299 /* VKardAppDelegate.m in Sources */,
-				F63FF889170BC7BB005DC299 /* VKardViewController.m in Sources */,
+				F63FF899170BCC7E005DC299 /* VKardViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,22 +213,6 @@
 				F63FF879170BC7BB005DC299 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		F63FF88A170BC7BB005DC299 /* VKardViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F63FF88B170BC7BB005DC299 /* en */,
-			);
-			name = VKardViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		F63FF88D170BC7BB005DC299 /* VKardViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F63FF88E170BC7BB005DC299 /* en */,
-			);
-			name = VKardViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
